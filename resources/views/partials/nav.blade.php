@@ -11,7 +11,7 @@
             <a href="#"><span>A propos</span></a>
         </li>
         <li class="{{ Route::currentRouteNamed('realisation') ? 'current_page_item' : '' }}">
-            <a href="#"><span>Realisations</span></a>
+            <a href="{{ route('realisation') }}"><span>Realisations</span></a>
         </li>
         <li class="{{ Route::currentRouteNamed('contact') ? 'current_page_item' : '' }}">
             <a href="{{ route('contact') }}"><span>Contact</span></a>
