@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
     return view('index');
 });
@@ -21,3 +22,9 @@ Route::get('/realisation', function () {
 Route::get('/a-propos', function () {
     return view('pages.who_we_are');
 })->name('who_we_are');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+require __DIR__ . '/auth.php';

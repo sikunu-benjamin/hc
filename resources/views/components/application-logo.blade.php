@@ -1,0 +1,1 @@
+<img class="logo-main scale-with-grid" src="{{ asset('content/architect2/images/architect_2.png') }}" alt="hercule construction logo" />

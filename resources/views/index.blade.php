@@ -4,7 +4,7 @@
 <!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
 <!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html class="no-js" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <!--<![endif]-->
 
 <head>
