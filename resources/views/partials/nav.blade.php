@@ -14,7 +14,7 @@
             <a href="{{ route('realisation') }}"><span>Realisations</span></a>
         </li>
         <li class="{{ Route::currentRouteNamed('contact') ? 'current_page_item' : '' }}">
-            <a href="{{ route('contact') }}"><span>Contact</span></a>
+            <a href="{{ route('login') }}"><span>Se connecter</span></a>
         </li>
     </ul>
 </nav>
