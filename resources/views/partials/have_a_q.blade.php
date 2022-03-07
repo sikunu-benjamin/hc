@@ -9,7 +9,7 @@
                 </div>
                 <div class="column mcb-column two-fifth column_column">
                     <div class="column_attr align_right" style=" padding:10px 5px; border-bottom: 1px solid #fff;">
-                        <a style="color: #fff;" href="#">Contactez-nous <i class="icon-right-open"></i></a>
+                        <a style="color: #fff;" href="{{ route('contact') }}">Contactez-nous <i class="icon-right-open"></i></a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ class StoreRealisationRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,13 @@ class StoreRealisationRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'categories' => 'required',
+            'description' => 'required',
+            'desc_content_1' => 'required',
+            'desc_content_2' => 'required',
+            'image' => 'required|mimes:jpg,jpeg,png',
+            'title' => 'required|unique:realisations',
+            'thunmail' => 'required|mimes:jpg,jpeg,png',
         ];
     }
 }

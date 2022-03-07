@@ -2,17 +2,25 @@
     <!-- CTA -->
     <span class="flex items-center justify-between p-4 mb-8 text-sm font-semibold text-purple-100 bg-purple-600 rounded-lg shadow-md focus:outline-none focus:shadow-outline-purple">
         <div class="flex items-center">
-
-            <span>Creation de l'actualite</span>
+            <span class="text-center">Creation de l'actualite</span>
         </div>
     </span>
     <!-- Cards -->
 
-    <form action="{{ route('publication.store') }}" method="post" enctype="multipart/form-data">
+    <x-auth-session-status class="mb-4" :status="session('status')" />
+
+    <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+    <form action="{{ route('realisation.store') }}" method="post" enctype="multipart/form-data">
         @csrf
         <label class="block text-sm">
             <span class="text-gray-700 dark:text-gray-400">Titre</span>
-            <input name="title" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="ex: realisation de maison de macampagne" />
+            <input name="title" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="ex: Traveau de macampagne" />
+        </label>
+
+        <label class="block text-sm">
+            <span class="text-gray-700 dark:text-gray-400">Catégorie</span>
+            <input name="categories" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="ex: realisation de maison de macampagne" />
         </label>
 
         <label class="block mt-4 text-sm">
@@ -27,8 +35,7 @@
                     ajouter une image
                 </span>
                 <div class="relative">
-                    <input type="file" accept="image/png, image/jpeg" class=" block w-full pl-20 mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input" />
-
+                    <input type="file" name="image" class=" block w-full pl-20 mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input" />
                 </div>
             </label>
 
@@ -37,8 +44,7 @@
                     ajouter une image d'horizontale
                 </span>
                 <div class="relative">
-                    <input type="file" accept="image/png, image/jpeg" class=" block w-full pl-20 mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input" />
-
+                    <input type="file" name="thunmail" class=" block w-full pl-20 mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray form-input" />
                 </div>
             </label>
         </div>

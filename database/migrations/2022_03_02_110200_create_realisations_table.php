@@ -15,12 +15,14 @@ return new class extends Migration
     {
         Schema::create('realisations', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('description');
-            $table->string('thunmail');
+            $table->string('slug')->unique();
+            $table->string('categories');
+            $table->text('description');
+            $table->text('desc_content_1');
+            $table->text('desc_content_2');
             $table->string('image');
-            $table->string('desc_content_1');
-            $table->string('desc_content_2');
+            $table->string('thunmail');
+            $table->string('title');
             $table->timestamps();
         });
     }

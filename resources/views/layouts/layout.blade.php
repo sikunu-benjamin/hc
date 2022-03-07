@@ -55,6 +55,7 @@
         <div id="Content">
             <div class="content_wrapper clearfix">
                 <div class="sections_group">
+                    @include('partials.spot_front')
                     <div class="entry-content">
 
                         @yield('content')

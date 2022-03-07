@@ -10,6 +10,7 @@ class AllUsers extends Component
 {
 
     public $users;
+    public $usersCount;
     /**
      * Create a new component instance.
      *
@@ -18,6 +19,7 @@ class AllUsers extends Component
     public function __construct()
     {
         $this->users = DB::table('users')->paginate(10);
+        $this->usersCount = User::all();
     }
 
     /**
