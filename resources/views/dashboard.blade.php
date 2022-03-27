@@ -12,7 +12,7 @@
     <x-all-users />
     @else
     <p class="mb-8 text-gray-600 dark:text-gray-400">
-        Il y a un silence ici, vous devez commencer quelque chose 🤗
+        <x-project />
     </p>
     @endif
 </x-app-layout>

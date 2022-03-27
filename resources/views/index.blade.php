@@ -160,12 +160,10 @@
                                                             <div class="desc">
                                                                 <div style="text-align: right; margin: 0 2% 0 10%;">
                                                                     <h2 class="themecolor" style="margin-bottom: 3px;">.02</h2>
-                                                                    <h2>Projet ma campagne</h2>
-                                                                    <h6>Curabitur non enim molestie augue a leo at sagittis porttitor phasellus.</h6>
+                                                                    <h6>Projet d'Accompagnement</h6>
                                                                     <p>
-                                                                        Tellus donec elementum diam vel tortor. Nulla consectetuer, augue sit amet interdum euismod pulvinar, libero. Donec pulvinar sed, tempus ut, dignissim faucibus, quam. Mauris tempor. </p>
-                                                                    <p>
-                                                                        <a href="#">lire la suite &#8230;</a>
+                                                                        Elle a donc trouvé dans l’offre et services tout ce qui pourrait répondre à son besoin.
+                                                                        Notre cliente cherchait aussi un tiers de confiance qui l’aidera dans son choix du professionnel du bâtiment avec un accompagnement immédiat et assez tôt.
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -182,12 +180,13 @@
                                                             <div class="desc">
                                                                 <div style="text-align: right; margin: 0 2% 0 10%;">
                                                                     <h2 class="themecolor" style="margin-bottom: 3px;">.02</h2>
-                                                                    <h2>Projet a kikwiti</h2>
-                                                                    <h6>Sed diam placerat dui. Pellentesque suscipit dolor. Donec faucibus velit.</h6>
+                                                                    <h6>La propriétaire a souhaité passer par hc en cherchant un accompagnement et un suivi minutieux de son chantier de rénovation d'appartement.</h6>
+
                                                                     <p>
-                                                                        Nulla consectetuer, augue sit amet interdum euismod pulvinar, libero. Donec pulvinar sed, tempus ut, dignissim faucibus, quam. </p>
+
+                                                                        La cliente a aussi apprécié l’analyse des devis faite par hercule construction avec le professionnel du bâtiment en répondant à toutes ses questions techniques.
                                                                     <p>
-                                                                        <a href="#">lire la suite &#8230;</a>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -203,12 +202,9 @@
                                                             <div class="desc">
                                                                 <div style="text-align: right; margin: 0 2% 0 10%;">
                                                                     <h2 class="themecolor" style="margin-bottom: 3px;">.02</h2>
-                                                                    <h2>Lemba</h2>
-                                                                    <h6>Class aptent taciti sociosqu ad litora.</h6>
                                                                     <p>
-                                                                        Etiam nunc faucibus orci luctus euismod. Integer id nonummy id, placerat vehicula ut, semper eros. Aliquam gravida sagittis. Nullam fermentum erat. </p>
+                                                                        D’après l'un de nos Chef de Projet chez HC, elle était en processus d’achat de sa jolie maison et souhaitait que les travaux soient pris en charge en totalité par nos équipes faute de temps.
                                                                     <p>
-                                                                        <a href="#">Lire la suite &#8230;</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -254,7 +250,6 @@
                                                 <div style="margin-left: 30px;">
                                                     <h6>Bénéficiez de la puissance de notre réseau national avec des prix négociés plus avantageux.</h6>
                                                     <hr class="no_line" style="margin: 0 auto 30px;" />
-                                                    <a href="#">lire plus ...</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -274,7 +269,6 @@
                                                         Conseils, suggestions et mise en relation d'architectes et d'Ingénieurs sous 48h pour répondre à vos exigences.
                                                     </p>
                                                     <hr class="no_line" style="margin: 0 auto 30px;" />
-                                                    <a href="#">Lire plus ...</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -294,7 +288,6 @@
                                                         Vos travaux sont réalisés par des professionnels fiables et adaptés à votre projet.
                                                     </p>
                                                     <hr class="no_line" style="margin: 0 auto 30px;" />
-                                                    <a href="#">Lire plus ...</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -335,7 +328,10 @@
                                             <div class="column_attr">
                                                 <h4>Architecte Jonas Kapela</h4>
                                                 <p>
-                                                    Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed.
+                                                    La beauté résultera de la forme et de la correspondance du tout aux parties,
+                                                    des parties entre elles, et de celles-ci au tout, de sorte que l'édifice apparaisse
+                                                    comme un corps entier et bien fini dans lequel chaque membre convient aux autres
+                                                    et où tous les membres sont nécessaires à ce que l'on a voulu faire.
                                                 </p>
                                             </div>
                                         </div>
@@ -361,31 +357,6 @@
                                                 <h4>Maitre Taylor Nkama</h4>
                                                 <p>
                                                     Conseiller juridique
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wrap mcb-wrap one-fourth  column-margin-20px valign-top clearfix" style="padding:0 1%">
-                                    <div class="mcb-wrap-inner">
-                                        <div class="column mcb-column one column_image ">
-                                            <div class="image_frame image_item scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper">
-                                                    <a href="#">
-                                                        <div class="mask"></div>
-                                                        <img class="scale-with-grid" src="{{ asset('content/architect2/images/home_architect2_team3.jpg') }}" alt="home_architect2_team3" width="780" height="880" />
-                                                    </a>
-                                                    <div class="image_links ">
-                                                        <a href="#" class="link"><i class="icon-link"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column one column_column  ">
-                                            <div class="column_attr">
-                                                <h4>Ir Lorem Ipsum</h4>
-                                                <p>
-                                                    Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo orci luctus non.
                                                 </p>
                                             </div>
                                         </div>
@@ -419,6 +390,7 @@
         @include('partials.footer')
     </div>
 
+    @include('partials.popupcontact')
     <script src="{{ asset('js/jquery-2.1.4.min.js') }}"></script>
 
     <script src="{{ asset('js/mfn.menu.js') }}"></script>

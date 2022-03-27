@@ -1,4 +1,4 @@
-<a class="fixed-nav fixed-nav-prev" href="#">
+<a class="fixed-nav fixed-nav-prev" href="{{ route('project') }}">
     <span class="arrow"><i class="icon-left-open-big"></i></span>
     <div class="photo">
     </div>

@@ -23,7 +23,8 @@
 
 </head>
 
-<body class="color-custom style-simple layout-full-width nice-scroll-on mobile-tb-left button-flat if-zoom no-content-padding header-below header-fw minimalist-header-no sticky-header sticky-white ab-hide subheader-both-center menu-line-below menuo-no-borders menuo-right footer-copy-center">
+<body class="color-custom style-simple layout-full-width nice-scroll-on mobile-tb-left button-flat if-zoom no-content-padding header-classic header-below header-fw minimalist-header-no sticky-header sticky-white ab-hide subheader-both-center menu-line-below menuo-no-borders menuo-right footer-copy-center">
+
     <div id="Wrapper">
         <div id="Header_wrapper" class="bg-parallax" data-enllax-ratio="0.3">
             <header id="Header">
@@ -68,6 +69,8 @@
         </div>
         @include('partials.footer')
     </div>
+
+    @include('partials.popupcontact')
 
     <script src="{{ asset('js/jquery-2.1.4.min.js') }}"></script>
     <script src="{{ asset('js/mfn.menu.js') }}"></script>

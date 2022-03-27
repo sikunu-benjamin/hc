@@ -27,10 +27,10 @@
 
             <div>
                 <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
-                    Creer de nouveaux offres
+                    Les demandes des devis
                 </p>
-                <a href="#" class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                    creer
+                <a href="{{ route('admin.devis_all') }}" class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                    Voir
                 </a>
             </div>
         </div>

@@ -103,7 +103,7 @@
                     Contact
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                    2
+                    {{ $contacts->count() }}
                 </p>
             </div>
         </div>
@@ -119,7 +119,7 @@
                     Publications
                 </p>
                 <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
-                    376
+                    {{ $publications->count() }}
                 </p>
             </div>
         </div>
@@ -130,12 +130,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
 @php $usersCo = $usersCount->count() @endphp
+@php $pubs = $publications->count() @endphp
+@php $contact = $contacts->count() @endphp
 <script>
     const pieConfig = {
         type: 'doughnut',
         data: {
             datasets: [{
-                data: [@php echo($usersCo) @endphp, 33, 33],
+                data: [@php echo($usersCo) @endphp, @php echo($contact) @endphp, @php echo($pubs) @endphp],
                 backgroundColor: ['#ff5a1f', '#0e9f6e', '#3f83f8'],
                 label: 'Dataset 1',
             }, ],

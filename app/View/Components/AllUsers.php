@@ -2,6 +2,8 @@
 
 namespace App\View\Components;
 
+use App\Models\Contact;
+use App\Models\Realisation;
 use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use Illuminate\View\Component;
@@ -11,6 +13,8 @@ class AllUsers extends Component
 
     public $users;
     public $usersCount;
+    public $contacts;
+    public $publications;
     /**
      * Create a new component instance.
      *
@@ -20,6 +24,8 @@ class AllUsers extends Component
     {
         $this->users = DB::table('users')->paginate(10);
         $this->usersCount = User::all();
+        $this->publications = Realisation::all();
+        $this->contacts = Contact::all();
     }
 
     /**
